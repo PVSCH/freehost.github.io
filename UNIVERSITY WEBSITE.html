@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type:none ;
+            margin: 0%;
+            padding: 0%;
+            background-color:black;
+            width: 1510px;
+            height: 30px;
+            padding-top: 10px;
+            position: sticky;
+            border: 0.01em solid black;
+            border-radius: 10px;
+            margin-left: 15px;
+        
+            
+        }
+
+         li {
+            display: inline;
+         }
+         li a{
+            padding: 10px;
+            text-decoration: none;
+            
+         }
+         li a:hover{
+            background-color:rgb(25, 23, 23);
+            border-radius: 10px;
+
+         }
+         .gut{
+            float: right;
+            padding-right: 10px;
+         } 
+         a{
+            color: white;
+         }
+         .seek{
+            margin-left: 2px;
+         }
+         body{
+            background-color: black
+         }
+
+         .rtx{
+            height: 100px;
+            width: 100px;
+           
+            margin-top: 0px;
+            
+         
+         }
+         .btr{
+            height: 600px;
+            width: 600px;
+            border: 2px solid black;
+            position: relative;
+        }
+        .itr{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            border-radius: 90px;
+            text-align: center;
+            position:absolute;
+            
+            animation-name: tree;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+
+        }
+        p{
+            padding-top: 30px;
+        }
+        @keyframes tree{
+            0%  {background-color: red; top: 0px; left: 0px;}
+            25% {background-color: yellow; top: 0px; left: 446px;}
+            50% {background-color: blue; top: 446px; left: 446px;}
+            75% {background-color: chartreuse; top: 446px; left: 0px;}
+            100%{background-color: red; top: 0px; left: 0px;}
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div>
+      <ul>
+
+      <img class="rtx" src="https://vit.ac.in/vit-rank/assets/img/VIT-logo.png">
+
+            <li class="geek"><a class="seek" href="home.html">HOME</a></li>
+            <li class="geek"><a href="student.html">STUDENT</a></li>
+            <li class="geek"><a href="department.html">DEPARTMENT</a></li>
+            <li class="geek"><a href="contact.html">CONTANT</a></li>
+            <li class="geek"><a href="placement.html">PLACEMENT</a></li>
+            <li class="geek"><a href="alumni.html">ALUMNI</a></li>
+            <div class="gut">
+            <label for="bic" style="color: white;">SEARCH</label>
+            <input type="search" id="bic">
+        </div>
+        </ul>
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+      <div class="btr">
+         <div class="itr">
+             <p>this is the effect of using keyframe rule</p>
+         </div>
+     </div>
+    </div>
+    
+</body>
+</html>
